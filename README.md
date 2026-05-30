@@ -2,32 +2,51 @@
 
 ## 📌 Project Overview
 
-This project is a machine learning-based Heart Disease Prediction System developed using Python and Scikit-learn.
-The application predicts the likelihood of heart disease based on patient health parameters.
+This project is a Machine Learning-based Heart Disease Prediction System developed using Python, Scikit-learn, and Streamlit.
 
-The project includes:
+The application predicts the likelihood of heart disease based on patient health parameters using Machine Learning algorithms and an interactive web interface.
+
+This project includes:
 
 * Data preprocessing
 * Exploratory Data Analysis (EDA)
 * Feature engineering
-* Machine learning model training
+* Machine Learning model training
 * Model evaluation
+* Real-time prediction system
 * Interactive Streamlit web application
 
 ---
 
-## 🚀 Features
+# 🌐 Live Demo
 
-* Predicts heart disease risk using ML algorithms
-* Interactive Streamlit user interface
-* Multiple machine learning models
-* Data visualization and correlation analysis
-* Confusion matrix and feature importance graphs
+### 🚀 Live Application
+
+[Click Here to Open Live App](https://disease-prediction-system-jpqeqltnvtc9rcmkvyau5n.streamlit.app/)
+
+---
+
+### 💻 GitHub Repository
+
+[Click Here to View Repository](https://github.com/kanikagupta18silver-spec/Disease-Prediction-System)
+
+---
+
+# 🚀 Features
+
+* Heart disease prediction using Machine Learning
+* Interactive Streamlit web application
+* Multiple ML model comparison
+* Real-time prediction system
+* Data preprocessing and cleaning
+* Feature engineering
+* Confusion matrix visualization
+* Feature importance analysis
 * Model persistence using Joblib
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 * Python
 * Pandas
@@ -40,30 +59,60 @@ The project includes:
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 bash
-Heart-Disease-Prediction-System/
+Disease-Prediction-System/
+│
+├── .kaggle/
+│   └── access_token
+│
+├── app/
 │
 ├── data/
+│   └── heart_disease_uci.csv
+│
 ├── models/
-├── main.py
+│   ├── heart_model.pkl
+│   ├── heart_rf_model.pkl
+│   ├── scaler.pkl
+│   └── training_columns.pkl
+│
+├── notebooks/
+│
+├── screenshots/
+│   ├── Homepage.png
+│   ├── input_form.png
+│   └── Prediction_result.png
+│
+├── src/
+│
+├── venv/
+│
+├── .gitignore
 ├── app.py
-├── requirements.txt
+├── main.py
 ├── README.md
-└── .gitignore
+└── requirements.txt
 
 
 ---
 
-## 📊 Machine Learning Models Used
+# 📊 Machine Learning Models Used
 
-* Logistic Regression
-* Random Forest Classifier
+## 1️⃣ Logistic Regression
+
+Used as a baseline classification model for heart disease prediction.
 
 ---
 
-## 📈 Model Evaluation
+## 2️⃣ Random Forest Classifier
+
+Used for improved prediction performance and feature importance analysis.
+
+---
+
+# 📈 Model Evaluation Techniques
 
 The models were evaluated using:
 
@@ -74,27 +123,41 @@ The models were evaluated using:
 
 ---
 
-## ▶️ How to Run the Project
+# ▶️ How to Run the Project
 
-### 1. Clone Repository
+## 1️⃣ Clone Repository
 
 bash
 git clone YOUR_GITHUB_REPOSITORY_LINK
 
 
-### 2. Install Dependencies
+---
+
+## 2️⃣ Navigate to Project Folder
+
+bash
+cd Disease-Prediction-System
+
+
+---
+
+## 3️⃣ Install Dependencies
 
 bash
 pip install -r requirements.txt
 
 
-### 3. Run ML Pipeline
+---
+
+## 4️⃣ Run Machine Learning Pipeline
 
 bash
 python main.py
 
 
-### 4. Run Streamlit App
+---
+
+## 5️⃣ Run Streamlit Application
 
 bash
 streamlit run app.py
@@ -102,33 +165,75 @@ streamlit run app.py
 
 ---
 
-## 💻 Web Application
+# 📸 Screenshots
 
-The Streamlit web application allows users to:
+## 🏠 Homepage
+
+![Homepage](screenshots/Homepage.png)
+
+---
+
+## 📝 Input Form
+
+![Input Form](screenshots/input_form.png)
+
+---
+
+## ❤️ Prediction Result
+
+![Prediction Result](screenshots/Prediction_result.png)
+
+---
+
+# 💻 Web Application Features
+
+The Streamlit application allows users to:
 
 * Enter patient health details
 * Predict heart disease risk
-* View prediction confidence
+* View prediction confidence score
+* Experience real-time Machine Learning prediction
 
 ---
 
-## 📸 Screenshots
+# 🔍 Dataset Information
 
-(Add screenshots here)
+Dataset used:
+
+* Heart Disease UCI Dataset
+* Source: Kaggle
+
+The dataset contains various medical attributes such as:
+
+* Age
+* Cholesterol
+* Blood Pressure
+* Chest Pain Type
+* Heart Rate
+* Thalassemia
+* ECG Results
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
-* Add multiple disease prediction
-* Deploy on cloud platforms
-* Add database integration
-* Add authentication system
-* Improve UI/UX
-* Add deep learning models
+* Multiple disease prediction system
+* Deep learning integration
+* Database connectivity
+* Authentication system
+* Cloud deployment
+* Improved UI/UX
+* API integration
+* Docker support
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 Kanika Gupta
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
