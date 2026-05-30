@@ -64,9 +64,6 @@ This project includes:
 bash
 Disease-Prediction-System/
 │
-├── .kaggle/
-│   └── access_token
-│
 ├── app/
 │
 ├── data/
