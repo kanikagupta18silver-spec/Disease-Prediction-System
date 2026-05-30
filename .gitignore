@@ -1,5 +1,5 @@
 venv/
 _pycache_/
 .ipynb_checkpoints/
-kaggle/
+.kaggle/
 venv/
