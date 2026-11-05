@@ -1,4 +1,7 @@
-//to run the code : .\venv\Scripts\python.exe -m streamlit run app.py
+// to run the project in terminal cmd  :python -m pip install -r requirements.txt
+cd "C:\Users\KANIKA\OneDrive\Desktop\Disease Prediction System"
+python -m streamlit run app.py
+
 
 # ❤️ Heart Disease Prediction System
 
