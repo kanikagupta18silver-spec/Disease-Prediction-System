@@ -1,3 +1,5 @@
+//to run the code : .\venv\Scripts\python.exe -m streamlit run app.py
+
 # ❤️ Heart Disease Prediction System
 
 ## 📌 Project Overview
